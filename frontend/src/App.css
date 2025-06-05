@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e6f0ff; /* jasny błękit */
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin-top: 2rem;
+  color: #003366; /* granat */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #ffffff;
+  border: 1px solid #99c2ff;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+form {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+form input, form button {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+form input {
+  flex: 1;
+  min-width: 200px;
+}
+
+form button {
+  background-color: #0059b3; /* granatowy */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #004080;
+}
+
+.boat-card {
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #99c2ff;
+}
+
+.boat-card img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 0.5rem;
+}
+
+.reservation-info {
+  font-size: 0.9rem;
+  color: #003366;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: none;
+  background-color: #0059b3;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #003d80;
+}
+
+button.delete {
+  background-color: #c82333;
+}
+
+button.delete:hover {
+  background-color: #a71d2a;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 51, 102, 0.1);
+}
